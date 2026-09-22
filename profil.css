@@ -1,0 +1,39 @@
+/* Mengatur tampilan kartu profil */
+.kartu {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(134, 133, 133, 0.1);
+}
+
+/* Mengatur foto agar rapi dan tidak kebesaran */
+.foto {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; /* Membuat foto jadi lingkaran */
+    object-fit: cover;
+}
+
+/* Mengatur judul nama */
+#nama {
+    font-size: 1.0rem;
+    margin: 15px 0 5px;
+}
+
+/* Mengatur teks info NRP & Prodi */
+.info {
+    color: #555;
+    margin: 3px 0;
+    font-size: 0.9rem;
+}
+
+/* Mengatur list agar rapi dan rata kiri */
+.kartu ul {
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 10px;
+    list-style-type: decimal;
+}
